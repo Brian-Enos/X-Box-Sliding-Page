@@ -54,8 +54,8 @@ h1 {
 
 
 .split.right .button:hover {
-  border-color: var(--right-button-hover-color);
-  background-color: var(--right-button-hover-color);
+  border-color: var(--rigth-button-hover-color);
+  background-color: var(--rigth-button-hover-color);
 }
 
 .split.left .button:hover {
