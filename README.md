@@ -5,7 +5,7 @@ This is a sliding landing page for Xbox, created using HTML, CSS, and JavaScript
 The landing page showcases visually appealing and interactive experience for users.
 
 ## **Demo**
-You can see a live demo of the X-Box Sliding Page [Here]()
+You can see a live demo of the X-Box Sliding Page: [Click Here](https://brian-enos.github.io/X-Box-Sliding-Page/#)
 
 ## **Features** 
 
