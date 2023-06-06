@@ -14,3 +14,7 @@ left.addEventListener('mouseleave', handleMouseLeave);
 function handleMouseLeave() {
 container.classList.remove('hover-left');
 }
+
+//The above two functions are similar to the ones below: Use of arrow function
+right.addEventListener('mouseenter', () => container.classList.add('hover-right'));
+right.addEventListener('mouseleave', () => container.classList.remove('hover-right'));
