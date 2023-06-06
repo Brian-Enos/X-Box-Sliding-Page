@@ -1,4 +1,4 @@
-# **X BOX SLIDING PAGE**
+# **X BOX SLIDING LANDING PAGE**
 
 This is a sliding landing page for Xbox, created using HTML, CSS, and JavaScript.
 
