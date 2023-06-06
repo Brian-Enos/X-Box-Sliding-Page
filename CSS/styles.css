@@ -62,3 +62,47 @@ h1 {
   border-color: var(--left-button-hover-color);
   background-color: var(--left-button-hover-color);
 }
+
+.main-container {
+  position: relative;
+  background: #333;
+  width: 100%;
+  height: 100%;
+}
+
+.split {
+  height: 100%;
+  position: absolute;
+  width: 50%;
+  overflow: hidden;
+}
+
+.split.left {
+  left: 0;
+  background: url("Images/ps5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.split.left::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--left-background-color);
+}
+
+.split.right {
+  right: 0;
+  background-repeat: no-repeat;
+  background: url("Images/xbox.jpg");
+  background-size: cover;
+}
+
+.split.right::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: var(--right-background-color);
+}
