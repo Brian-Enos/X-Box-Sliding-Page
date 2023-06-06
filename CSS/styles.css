@@ -41,3 +41,24 @@ body {
   margin: 0;
   overflow: hidden;
 }
+
+h1 {
+  color: #fff;
+  font-size: 4rem;
+  left: 50%;
+  top: 20%;
+  white-space: nowrap;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+
+.split.right .button:hover {
+  border-color: var(--right-button-hover-color);
+  background-color: var(--right-button-hover-color);
+}
+
+.split.left .button:hover {
+  border-color: var(--left-button-hover-color);
+  background-color: var(--left-button-hover-color);
+}
